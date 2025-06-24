@@ -1,0 +1,29 @@
+{
+  "name": "design-theme",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojo147/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojo147/Portfolio/issues"
+  },
+  "homepage": "https://github.com/mojo147/Portfolio#readme",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "swiper": "^11.2.8"
+  }
+}
